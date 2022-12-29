@@ -1,0 +1,60 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../images/fondo.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-img {
+    width: 60%;
+}
+
+.banner-img>img{
+    width: 400px;
+}
+
+.banner-content{
+    width: 40%; 
+    color: white;
+    margin-left: -100px;
+}
+
+.banner-title{
+   font-size: 60px;
+   text-align: start;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+
+.banner-description{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    text-align: start;
+}
+
+.banner-divider{
+    height: 150px; 
+    overflow: hidden;
+}
+
+.banner-divider svg{
+    height: 100%; 
+    width: 100%;
+}
+
+.banner-divider{
+    transform: rotate(180deg);
+    
+}
+
+.banner-divider path{
+    position: absolute;
+    stroke: none; 
+    fill: #009ea4;
+    z-index: 1;
+}

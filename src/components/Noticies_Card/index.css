@@ -1,0 +1,22 @@
+.noticies-card{
+    width: 33%;
+    margin: 20px;
+    text-align: start;
+}
+
+.noticies-card-img{
+    width: 300px;
+    height: 200px;
+}
+
+.noticies-card-title{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.noticies-card-description{
+    font-size: 18px;
+    font-weight: 100;
+    font-family: sans-serif;
+}

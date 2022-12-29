@@ -1,0 +1,18 @@
+.department{
+    font-family: sans-serif;
+}
+
+.department-title{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: start;
+}
+
+.cards{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cards .card{
+    margin: 5px;
+}
